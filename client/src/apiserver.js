@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export function apiServer (param, callback) {
-    let urlService = `http://localhost:3300/${param.service}`;
+    let urlService = `/${param.service}`;
     if(param.method === "get" || param.method === "delete"){
         urlService += `/${param.data}`;
     }
