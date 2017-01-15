@@ -1,6 +1,6 @@
 # Stripe Coupons Reactjs 
 
-Actividad desarrollada haciendo uso de ReactJS, consumiendo la API de stripe para obtener cupones.
+Actividad desarrollada haciendo uso de ReactJS, consumiendo la [API de stripe] para obtener cupones.
 
 ### Demo
 
@@ -29,7 +29,7 @@ npm start
 
 ### Server
 
-El servidor ya cuenta con el build resultante del cliente
+El servidor ya cuenta con el [build] resultante del cliente
 
 ```
 cd server
@@ -44,3 +44,5 @@ License
 MIT
 
 [@ostjh]:https://twitter.com/ostjh
+[API de stripe]:https://stripe.com/docs/api
+[build]:https://github.com/Jorger/stripe_coupons_reactjs/tree/master/server/build
