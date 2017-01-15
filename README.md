@@ -8,6 +8,18 @@ Actividad desarrollada haciendo uso de ReactJS, consumiendo la [API de stripe] p
 
 URL: https://mysterious-harbor-14114.herokuapp.com
 
+### Servicios.
+
+Método|URI|Acción
+:--:|:--:|:--:|:--:|:--:|:--:
+**POST**|/register|Registrar un nuevo usuario|
+**POST**|/login|Autenticar un usuario|
+**GET**|/coupons/:page|Obtener el listado de cupones disponibles|
+**GET**|/getcoupon/:id|Obtener un cupón dado el id del mismo|
+**POST**|/newcoupon|Crear un cupón|
+**PUT**|/updatecoupon/|Actualiza un cupón|
+**DELETE**|/deletecoupon/:id|Elimina un cupón|
+
 ### Variables de Entorno.
 
 Se han definido 4 variables de entorno como son:
